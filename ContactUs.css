@@ -1,0 +1,175 @@
+body {
+    margin: 0
+    ;
+    padding: 0;
+    background-color: #e8e8e8;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container1 {
+    background-color: #f4cb08;
+    height: 510px;
+    width: 100%;
+    margin-top: 12%;
+    margin-left: 0;
+    
+  }
+  .box{
+    width: 40%;
+    height: 600px;
+    background-color: white;
+    position: absolute;
+    left: 800px;
+    top: 20px;
+    border-color: grey;
+    border-radius: 30px;
+    margin-top: 8%;
+   
+  }
+  .box1{
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .a{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .b{
+    border: none;
+    border-bottom: 2.5px solid black;
+    outline: none;
+    width: 90%;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    resize: vertical;
+  }
+  .b::placeholder{
+    padding-left: 8px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    
+  }
+  .submit{
+    width: 20%;
+    height:37px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 20px;
+  }
+  .submit:hover{
+    background-color: #f4cb08;
+    
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition-duration: .6s;
+    
+  }
+  .c{
+  
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
+        resize: vertical; /* Optional: Allow vertical resizing of the textarea */
+  }
+  .c::placeholder{
+    padding-left: 5px;
+    font-size: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+  }
+  .custom-hr {
+    height: 2.5px; /* Set the desired height of the <hr> */
+    border: none;
+    background-color: black; /* Set the color of the <hr> */
+    margin-top: 12px;
+    margin-right: 49px;
+  }
+  .navbar {
+    position: absolute;
+    top: -12px;
+    left: 0;
+   right: 0;
+   font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    margin-top: 12px;
+    font-size: 22px;
+  }
+  .nav-links {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-gap: 0.5em;
+    margin-right: 70px;
+    margin-left: 200px;
+    justify-content: space-between;
+    gap: 2rem;
+    
+  }
+  .nav-link {
+    color: black;
+    text-decoration: none;
+   margin-left: 25px;}
+  .nav-link:hover {
+    color: #f4cb08;
+    transform: scale(1.2);
+    font-weight: 500;
+  }
+  .nav-link:hover {
+    
+    transform: scale(1.2);
+    
+  }
+  .nav-link {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s;
+  }
+  
+  .nav-link::after {
+  content: '';
+  width: 0;
+  height: 1.8px;
+  background-color:#f4cb08;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.4s;
+  border-radius: 20px;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  .club-name {
+    color: black;
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    align-items: center;
+  }
+  .vertical-line {
+    border-left: 2px solid #f4cb08;
+    height: 75px;
+    margin-right: 1em;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    width: 65px;
+    height: 65px;
+    margin-right: 1em;
+    margin-left: 50px;
+  }
+  
+.container2{
+    margin-left:5%;
+    padding-top: 3%;
+    font-size: 20px;
+    
+}
